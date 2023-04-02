@@ -1,0 +1,581 @@
+* {
+    margin : 0;
+    padding: 0;
+    outline: none;
+}
+
+.Code {
+    background: #E5E5E5;
+}
+
+.header {
+
+    height          : 75px;
+    width           : 100%;
+    background-color: rgb(191, 191, 253);
+}
+
+.header .container {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    max-width      : 1440px;
+}
+
+@media (min-width: 320px) {
+    .container {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 425px) {
+    .container {
+        padding-top: 0px;
+    }
+}
+
+.logoheader {
+    display    : flex;
+    width      : 70px;
+    height     : 70px;
+    margin-left: 25px;
+}
+
+@media (max-width: 730px) {
+    .logoheader {
+        display     : flex;
+        margin-left : 15px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .logoheader {
+        display     : flex;
+        width       : 50px;
+        height      : 50px;
+        margin-left : 1px;
+        margin-right: 1px;
+    }
+}
+
+@media (max-width: 730px) {
+    .headerRiht {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 730px) {
+    .header .container {
+        display       : flex;
+        flex-direction: row;
+    }
+}
+
+.headerRiht {
+    display     : flex;
+    margin-right: 120px;
+}
+
+@media (max-width: 980px) {
+    .headerRiht {
+        margin-right: 65px;
+    }
+}
+
+@media (max-width: 767px) {
+    .headerRiht {
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 730px) {
+    .headerRiht {
+        margin-right: 25px;
+    }
+}
+
+.button {
+    width           : 100px;
+    height          : 30px;
+    background-color: rgb(119 119 245);
+    border-color    : rgb(255, 255, 255);
+    border-radius   : 5px;
+    margin-right    : 5px;
+}
+
+@media (max-width: 320px) {
+    .button {
+        width : 85px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .button {
+        width       : 85px;
+        height      : 40px;
+        margin-right: 2px;
+    }
+}
+
+@media (max-width: 425px) {
+    .button {
+        width : 85px;
+        height: 40px;
+    }
+}
+
+.button:hover {
+    background-color: rgb(31, 127, 151);
+}
+
+.headerRiht a {
+    text-align : center;
+    font-family: "Roboto";
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 14px;
+    line-height: 19px;
+    color      : #ffffff;
+    padding    : 10px;
+}
+
+/* ____________main_______ */
+
+.container {
+    display  : flex;
+    margin   : 0 auto;
+    max-width: 1440px;
+}
+
+.flex-box {
+    overflow       : hidden;
+    box-sizing     : border-box;
+    width          : 50%;
+    white-space    : nowrap;
+    display        : flex;
+    flex-wrap      : nowrap;
+    justify-content: center;
+    margin-right   : 0;
+}
+
+@media (max-width: 425px) {
+    .flex-box {
+        width: auto;
+    }
+}
+
+@media (max-width: 730px) {
+    .flex-box {
+        width: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        overflow      : hidden;
+        display       : flex;
+        flex-direction: column-reverse;
+        align-items   : center;
+    }
+}
+
+@media (max-width: 730px) {
+    .container {
+        overflow      : hidden;
+        display       : flex;
+        flex-direction: column-reverse;
+        align-items   : center;
+    }
+}
+
+.main-pic {
+    width          : 100%;
+    display        : flex;
+    justify-content: right;
+}
+
+@media (max-width: 730px) {
+    .main-pic {
+        width          : auto;
+        height         : 400px;
+        overflow       : hidden;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+    }
+}
+
+@media (max-width: 426px) {
+    .main-pic {
+        width          : auto;
+        height         : 300px;
+        overflow       : hidden;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+    }
+}
+
+.main-txt {
+    padding: 210px 190px 230px 190px;
+}
+
+@media (max-width: 320px) {
+    .main-txt {
+        width: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main-txt {
+        padding: 34px 190px 365px 190px;
+    }
+}
+
+@media (max-width: 730px) {
+    .main-txt {
+        padding: 34px 190px 365px 190px;
+    }
+}
+
+.next {
+    font-weight   : 400;
+    font-size     : 16px;
+    line-height   : 19px;
+    font-family   : 'Roboto';
+    color         : #2D3748;
+    width         : 105px;
+    padding-bottom: 2px;
+    height        : 19px;
+    left          : 913px;
+    top           : 232px;
+}
+
+.next:hover {
+    border-bottom      : 2px solid;
+    border-bottom-color: #3493f3;
+}
+
+.main-headding {
+    font-weight: 700;
+    font-size  : 30px;
+    line-height: 35px;
+    color      : #1A202C;
+    font-family: 'Roboto';
+    width      : 290px;
+    height     : 35px;
+}
+
+.main-headding:hover {
+    border-bottom      : 2px solid;
+    border-bottom-color: #3493f3;
+}
+
+.loginform {
+    margin-top   : 25px;
+    display      : flex;
+    height       : auto;
+    width        : 350px;
+    border-radius: 0px;
+    width        : 350px;
+    height       : auto;
+}
+
+@media (max-width: 320px) {
+    .loginform {
+        width: 300px;
+    }
+}
+
+.Email {
+    position   : absolute;
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : #4A5568;
+}
+
+.email {
+    display        : flex;
+    box-sizing     : border-box;
+    align-items    : center;
+    justify-content: center;
+    width          : 350px;
+    height         : 50px;
+    border         : 1px solid #9c9b9b;
+    border-radius  : 5px;
+    margin-top     : 30px;
+}
+
+.email:hover {
+    box-shadow: inset 0 0 0 3px #3493f3;
+}
+
+.email_text {
+    font-weight: 400;
+    font-size  : 14px;
+    line-height: 17px;
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #2D3748;
+
+}
+
+.email_text:hover {
+    border-bottom      : 2px solid;
+    border-bottom-color: #3493f3;
+}
+
+.Password {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 19px;
+    position   : absolute;
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : #4A5568;
+    margin-top : 90px;
+}
+
+.passform {
+    display        : flex;
+    box-sizing     : border-box;
+    align-items    : center;
+    justify-content: center;
+    width          : 350px;
+    height         : 50px;
+    position       : absolute;
+    border         : 1px solid #9c9b9b;
+    border-radius  : 5px;
+    margin-top     : 120px;
+}
+
+@media (max-width: 320px) {
+    .passform {
+        width: 300px;
+    }
+}
+
+.passform:hover {
+    box-shadow: inset 0 0 0 3px #3493f3;
+}
+
+.pass-text {
+    position   : absolute;
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #000000;
+    align-items: center;
+}
+
+.Ellips {
+    box-sizing: border-box;
+    position  : absolute;
+    margin-top: 200px;
+
+}
+
+.Remember {
+    position   : absolute;
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #2D3748;
+    margin-top : 200px;
+    margin-left: 25px;
+}
+
+.Remember:hover {
+    border-bottom      : 2px solid;
+    border-bottom-color: #3493f3;
+}
+
+.Forgot {
+    position   : absolute;
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #2C5282;
+    margin-top : 200px;
+    margin-left: 237px;
+}
+
+@media (max-width: 320px) {
+    .Forgot {
+        margin-left: 186px;
+    }
+}
+
+.Forgot:hover {
+    border-bottom      : 2px solid;
+    border-bottom-color: #3493f3;
+}
+
+.butlogin {
+    position     : absolute;
+    width        : 350px;
+    height       : 50px;
+    margin-top   : 250px;
+    background   : #04C45C;
+    border       : 1px solid #9c9b9b;
+    border-radius: 5px;
+}
+
+@media (max-width: 320px) {
+    .butlogin {
+        width: 300px;
+    }
+}
+
+.butlogin:hover {
+    box-shadow: inset 0 0 0 3px #3493f3;
+}
+
+.Login {
+    position   : absolute;
+    left       : 39.48%;
+    right      : 39.19%;
+    top        : 30%;
+    bottom     : 32%;
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : #FFFFFF;
+}
+
+.Login:hover {
+    border-bottom      : 3px solid;
+    border-bottom-color: #3493f3;
+}
+
+.butgoogle {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    width          : 350px;
+    height         : 50px;
+    position       : absolute;
+    margin-top     : 312px;
+    background     : #2D3748;
+    border-radius  : 5px;
+}
+
+@media (max-width: 320px) {
+    .butgoogle {
+        width: 300px;
+    }
+}
+
+.butgoogle:hover {
+    box-shadow: inset 0 0 0 3px #3493f3;
+}
+
+.G img {
+    margin: 10px;
+}
+
+.google {
+    text-decoration: none;
+    left           : 31.7%;
+    right          : 22.48%;
+    top            : 30%;
+    bottom         : 32%;
+    font-family    : 'Roboto';
+    font-style     : normal;
+    font-weight    : 700;
+    font-size      : 16px;
+    line-height    : 19px;
+
+    color: #FFFFFF;
+}
+
+a.google:hover {
+    border-bottom      : 3px solid;
+    border-bottom-color: #3493f3;
+}
+
+.account {
+    width      : auto;
+    height     : 50px;
+    position   : absolute;
+    text-align : center;
+    margin-top : 440px;
+    height     : 19px;
+    padding    : 0px 38px;
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : #616161;
+}
+
+@media (max-width: 730px) {
+    .account {
+        margin-top: 320px;
+    }
+}
+
+@media (max-width: 320px) {
+    .account {
+        width  : 270px;
+        padding: 0px 15px;
+    }
+}
+
+.Join {
+    color: #2B6CB0;
+}
+
+.account:hover {
+    color: #080808;
+}
+
+.account {
+    text-decoration: none;
+    display        : inline-block;
+}
+
+.account:after {
+    display         : block;
+    content         : "";
+    height          : 3px;
+    width           : 0%;
+    background-color: #409bf7;
+    transition      : width 0.5s ease-in-out;
+}
+
+.account:hover:after,
+.account:focus:after {
+    width: 100%;
+}
+
+.account:hover {
+    color: #225384;
+}
+
+.footer {
+    height          : 75px;
+    width           : 100%;
+    background-color: rgb(191, 191, 253);
+}
